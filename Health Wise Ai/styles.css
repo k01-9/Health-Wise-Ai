@@ -336,3 +336,16 @@ a:focus-visible, .btn:focus-visible{
   .stack-flow{ flex-direction: column; }
   .stack-arrow{ transform: rotate(90deg); }
 }
+
+/* Accessible demo disclosure and keyboard navigation */
+.skip-link{
+  position:absolute; top:-5rem; left:1rem; z-index:100;
+  padding:0.75rem 1rem; background:var(--white); color:var(--ink);
+  border:2px solid var(--teal); border-radius:var(--radius-sm);
+}
+.skip-link:focus{ top:1rem; }
+.demo-notice{
+  max-width:1180px; margin:0 auto 2rem; padding:1rem 1.25rem;
+  background:var(--white); border-left:4px solid var(--teal);
+  border-radius:var(--radius-sm); color:var(--ink); font-size:0.9rem;
+}
